@@ -94,7 +94,7 @@ class Status extends StatelessWidget {
                         backgroundColor: Colors.green.shade500,
                         child: CircleAvatar(
                           radius: 28,
-                          backgroundColor: Color(0xff0B2325),
+                          backgroundColor: const Color(0xff0B2325),
                           child: CircleAvatar(
                             radius: 26,
                             backgroundColor: Colors.grey.shade800,
@@ -135,7 +135,7 @@ class Status extends StatelessWidget {
                 color: Colors.white,
                 thickness: 0.5,
               ),
-              SizedBox(
+              const SizedBox(
                 height: 7,
               ),
               Row(

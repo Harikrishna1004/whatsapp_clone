@@ -6,7 +6,7 @@ class Calls extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color(0xff0B2325),
+        backgroundColor: const Color(0xff0B2325),
         body: Padding(
           padding: const EdgeInsets.symmetric(vertical: 15.0, horizontal: 12),
           child: Column(
@@ -43,17 +43,17 @@ class Calls extends StatelessWidget {
                   ),
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 12,
               ),
-              Text(
+              const Text(
                 "Recent",
                 style: TextStyle(
                     color: Colors.white,
                     fontSize: 18,
                     fontWeight: FontWeight.w700),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 12,
               ),
               Padding(
@@ -113,7 +113,7 @@ class Calls extends StatelessWidget {
                 color: Colors.grey.shade400,
                 thickness: 0.5,
               ),
-              SizedBox(
+              const SizedBox(
                 height: 7,
               ),
               Row(

@@ -33,7 +33,8 @@ class UserService {
         list.add(User.fromJson(entry));
       }
       return list;
-    } else
+    } else {
       throw Exception("Http failed");
+    }
   }
 }

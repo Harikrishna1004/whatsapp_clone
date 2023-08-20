@@ -13,7 +13,7 @@ class Group extends StatelessWidget {
               child: Container(
                 height: 200,
                 width: 350,
-                decoration: BoxDecoration(color: Colors.grey),
+                decoration: const BoxDecoration(color: Colors.grey),
               ),
             ),
           ],

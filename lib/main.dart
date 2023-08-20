@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       darkTheme: ThemeData.dark(),
-      home: DefaultTabController(length: 4, child: HomePage()),
+      home: const DefaultTabController(length: 4, child: HomePage()),
     );
   }
 }

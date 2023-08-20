@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xff26323E),
+        backgroundColor: const Color(0xff26323E),
         title: Text(
           "WhatsApp",
           style: TextStyle(color: Colors.grey.shade400, fontSize: 22),
@@ -22,28 +22,28 @@ class HomePage extends StatelessWidget {
             Icons.camera_alt_outlined,
             color: Color(0xff778089),
           ),
-          const SizedBox(
+          SizedBox(
             width: 20,
           ),
           Icon(
             Icons.search,
             color: Color(0xff778089),
           ),
-          const SizedBox(
+          SizedBox(
             width: 20,
           ),
           Icon(
             Icons.menu,
             color: Color(0xff778089),
           ),
-          const SizedBox(
+          SizedBox(
             width: 10,
           ),
         ],
         bottom: TabBar(
-          indicatorColor: Color(0xff01B6A3),
+          indicatorColor: const Color(0xff01B6A3),
           indicatorWeight: 3.0,
-          labelColor: Color(0xff01B6A3),
+          labelColor: const Color(0xff01B6A3),
           unselectedLabelColor: Colors.grey.shade400,
           tabs: const [
             Icon(
