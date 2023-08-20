@@ -6,7 +6,7 @@ class Status extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color(0xff0B2325),
+        backgroundColor: const Color(0xff0B2325),
         body: Padding(
           padding: const EdgeInsets.symmetric(vertical: 15.0, horizontal: 10),
           child: Column(
@@ -18,7 +18,7 @@ class Status extends StatelessWidget {
                     alignment: Alignment.bottomRight,
                     children: [
                       Container(
-                        padding: EdgeInsets.all(8),
+                        padding: const EdgeInsets.all(4),
                         child: CircleAvatar(
                           radius: 28,
                           backgroundColor: Colors.grey.shade500,
@@ -30,8 +30,8 @@ class Status extends StatelessWidget {
                         ),
                       ),
                       const Positioned(
-                        bottom: 0.5,
-                        right: 0.5,
+                        bottom: 5,
+                        right: 1,
                         child: CircleAvatar(
                           radius: 15,
                           foregroundColor: Colors.black,
