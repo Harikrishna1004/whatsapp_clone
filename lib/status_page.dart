@@ -91,7 +91,7 @@ class Status extends StatelessWidget {
                     children: [
                       CircleAvatar(
                         radius: 30,
-                        backgroundColor: Colors.grey.shade300,
+                        backgroundColor: Colors.green.shade500,
                         child: CircleAvatar(
                           radius: 28,
                           backgroundColor: Color(0xff0B2325),
