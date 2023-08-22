@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone/settings_page.dart';
 
 import 'home_page.dart';
 
