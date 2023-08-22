@@ -6,7 +6,7 @@ class Status extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: const Color(0xff0B2325),
+        backgroundColor: const Color(0xff121B22),
         body: Padding(
           padding: const EdgeInsets.symmetric(vertical: 15.0, horizontal: 10),
           child: Column(

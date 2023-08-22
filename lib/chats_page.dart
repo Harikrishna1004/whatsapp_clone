@@ -20,7 +20,7 @@ class _ChatsState extends State<Chats> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: const Color(0xff0B2325),
+        backgroundColor: const Color(0xff121B22),
         body: FutureBuilder<List<User>>(
             future: futureUsers,
             builder: (context, AsyncSnapshot snapshot) {
